@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Arrays;
 
-class Day1
+class Day1Part1
 {
    public static int[][] getData(String filePath) throws Exception {
 
@@ -54,7 +54,7 @@ class Day1
    {
 
         // Get our two lists from the file
-        int[][] lists = getData("C:\\Users\\Nick\\Desktop\\AoC24\\data\\input.txt");
+        int[][] lists = getData("C:\\Users\\Nick\\Desktop\\AoC24\\data\\inputd1p1.txt");
 
         // Sort lists
         Arrays.sort(lists[0]);
